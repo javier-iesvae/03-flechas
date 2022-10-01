@@ -1,0 +1,10 @@
+input.onGesture(Gesture.Shake, function () {
+    basic.showArrow(ArrowNames.North)
+    basic.pause(500)
+    basic.showArrow(ArrowNames.East)
+    basic.pause(500)
+    basic.showArrow(ArrowNames.South)
+    basic.pause(500)
+    basic.showArrow(ArrowNames.West)
+    basic.pause(500)
+})
